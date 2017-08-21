@@ -1,0 +1,4 @@
+graph(%1 : Float(10), %2 : Float(10)) {
+  %3.0 : Float(20) = ^Concat(0)(%1, %2), uses = [[%0.i0]];
+  return (%3.0);
+}
